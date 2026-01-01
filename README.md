@@ -4,13 +4,11 @@ OBJECTIVE:
 The objective of this task was to analyze Alfido Tech’s internship recruitment funnel to identify where candidates drop off, understand the factors influencing offers and joining, and provide actionable recommendations to improve conversion rates.
 
 DATA: 
-
 Source:Synthetic internship funnel dataset (generated using Python in Google Colab).  
 Contents:Candidate ID, source (LinkedIn, Referral, Website, Campus), education level, GPA, stage (Applied → Screen → Assessment → Interview → Offer → Join), stage date, offer status, join status.  
 Size:500 candidate records covering multiple recruitment stages.  
 
 ANALYSIS PERFORMED:
-
 Data Cleaning & Preprocessing: Removed duplicates, standardized stage order, validated timestamps.  
 Funnel Analysis: Counted candidates at each stage and calculated conversion rates between stages.  
 Segment Analysis: Compared conversion rates by source (LinkedIn, Referral, Campus) and education level.  
